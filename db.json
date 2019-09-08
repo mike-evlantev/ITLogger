@@ -15,11 +15,11 @@
       "id": 2
     },
     {
-      "message": "Hard drive failed in workstation 002",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-09-08T20:11:37.459Z",
-      "id": 3
+      "id": 3,
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-09-08T22:55:11.677Z"
     }
   ],
   "techs": [
