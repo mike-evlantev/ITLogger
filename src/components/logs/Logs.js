@@ -2,10 +2,9 @@ import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import Preloader from "../layout/Preloader";
 import LogItem from "./LogItem";
-import PropTypes from "prop-types";
 import { getLogs } from "../../actions/logActions";
 
-const Logs = ({ logs, loading, getLogs }) => {
+const Logs = ({ logs = [], loading, getLogs }) => {
   useEffect(() => {
     getLogs();
     // eslint-disable-next-line
@@ -27,11 +26,6 @@ const Logs = ({ logs, loading, getLogs }) => {
       )}
     </ul>
   );
-};
-
-Logs.propTypes = {
-  logs: PropTypes.array.isRequired,
-  getLogs: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
