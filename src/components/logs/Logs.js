@@ -4,7 +4,7 @@ import Preloader from "../layout/Preloader";
 import LogItem from "./LogItem";
 import { getLogs } from "../../actions/logActions";
 
-const Logs = ({ logs = [], loading, getLogs }) => {
+const Logs = ({ logs, loading, getLogs }) => {
   useEffect(() => {
     getLogs();
     // eslint-disable-next-line
