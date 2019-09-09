@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import TechItem from "./TechItem";
 import { connect } from "react-redux";
 import { getTechs } from "../../actions/techActions";
@@ -24,7 +24,8 @@ const TechListModal = ({ techs, loading, getTechs }) => {
 };
 
 const mapStateToProps = state => ({
-  techs: state.tech.techs
+  techs: state.tech.techs,
+  loading: state.tech.loading
 });
 
 export default connect(
