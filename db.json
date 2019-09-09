@@ -18,8 +18,8 @@
       "id": 3,
       "message": "Fixed hard drive on workstation 002",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2019-09-08T22:55:11.677Z"
+      "tech": "Jill Smith",
+      "date": "2019-09-09T00:41:31.378Z"
     }
   ],
   "techs": [
@@ -37,6 +37,16 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Greg",
+      "lastName": "Harris",
+      "id": 4
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Smith",
+      "id": 5
     }
   ]
 }
